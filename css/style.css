@@ -785,6 +785,7 @@ background-image: url("../images/icons/clock-1.svg");
 .footer-adress {
     display: flex;
     align-items: baseline;
+    width: 231px;
 }
 .instagram-white::before {
     background-image: url("../images/icons/instagram-white.svg");
