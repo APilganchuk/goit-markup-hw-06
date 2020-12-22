@@ -1094,6 +1094,7 @@ color: #212121;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .checkbox {
     appearance: none;
