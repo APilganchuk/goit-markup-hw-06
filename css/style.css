@@ -1004,7 +1004,6 @@ cursor: pointer;
     height: 24px;
     margin-left: 10px;
     background-image: url("../images/icons/send.svg");
-    
 }
 .js-speaker-form .mail {
     width: 358px;
@@ -1136,6 +1135,8 @@ color: #212121;
     
     fill: #000000;
     transition: fill 250ms var(--cubic);
+
+    pointer-events: none;
 }
 .form-input:focus + .icon-form {
     fill: var(--accent-color);
