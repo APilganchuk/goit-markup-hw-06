@@ -1079,7 +1079,13 @@ color: #212121;
     border-radius: 4px;
 
     resize: none;
+    outline: none;
+    transition: border-color 250ms var(--cubic);
 }
+.textarea:focus {
+    border-color: var(--accent-color);
+}
+
 /* Стилизация чекбокса */
 
 .checkbox-label > .link {
@@ -1100,8 +1106,10 @@ color: #212121;
     position: absolute;
 }
 .checkbox-container {    
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    
 }
+
 .checkbox-container .icon {
     position: absolute;
     left: 0;
